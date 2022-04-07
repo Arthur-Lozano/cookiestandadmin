@@ -1,24 +1,29 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
+import Form from '../components/Form'
+import Header from '../components/Header'
+import Main from '../components/Main'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
         <title>Cookie Stand Admin</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <header className="flex items-center justify-between p-4 bg-gray-500 text-black-50">
-        <h1 className='text-4xl'>Eight Ball</h1>
-        <p>1 question answered</p>
+        <h1 className='text-4xl'>Cookie Stand Admin</h1>
       </header>
-      <main className="">
+      <main>
+        <Form />
+        <h1>
+        Report Table Coming Soon...
+        </h1>
+        <h1>{"{'location':'Barcelona','minCustomer':2,'maxCustomers':4,'avgCookies':2.5}"}</h1>
       </main>
 
-      <footer className="">
- 
-      </footer>
+      <Footer />
     </div>
   )
 }
