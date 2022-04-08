@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Cookie Stand Admin</title>
       </Head>
-      <header className="flex items-center justify-between p-4 bg-gray-500 text-black-50">
+      <header className="flex items-center justify-between p-4 bg-blue-500 text-black-50">
         <h1 className='text-4xl'>Cookie Stand Admin</h1>
       </header>
       <main>
