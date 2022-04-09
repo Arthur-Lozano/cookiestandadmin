@@ -9,7 +9,7 @@ import { useAuth } from '../contexts/auth'
 import useResource from '../hooks/useResource'
 
 export default function Home() {
-  
+
   const { user, login, logout } = useAuth();
   const { resources, loading, createResource, deleteResource } = useResource();
 
@@ -26,6 +26,6 @@ export default function Home() {
   )
 }
 
-function StandList () {
+function StandList() {
 
 }
