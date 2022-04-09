@@ -1,8 +1,7 @@
-export default function Footer(props) {
-  return (
-    <footer className="p-3 bg-blue-500 nt-10">
-      {/* <h1>{props.resources ? props.resources.length : 0} Locations World Wide</h1> */}
-      <p>&copy; 2022</p>
-    </footer>
-  )
+export default function Footer({ count }) {
+    return (
+        <footer className="flex w-full p-4 mt-8 text-center bg-green-500">
+            <h2 className="ml-2 font-mono text-3xl drop-shadow-lg">{count} Locations World wide</h2>
+        </footer>
+    )
 }
