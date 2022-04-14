@@ -15,6 +15,7 @@ export default function Table(props) {
       </thead>
       <tbody>
         {props.data.map(item => {
+          console.log('this is the data  from props, located on main component', props.data)
           return (
             <tr className="border border-gray-700 odd:bg-green-400 even:bg-green-300">
               <td className="p-1 font-bold text-center capitalize border border-gray-700">{item.location}</td>
