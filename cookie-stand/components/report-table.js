@@ -1,5 +1,6 @@
 import { hours, hourly_sales } from '../data'
 
+
 export default function Table(props) {
   return (
     <table className="w-3/4 m-8 bg-green-500 tableRow" id="myTable">
